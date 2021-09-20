@@ -4,7 +4,7 @@
 
 # Challenges
 
-React challenges for online interview.
+React challenges for online interview, Includes two tests for 20 minutes.
 
 #### Knowledge required for this task includes:
 - Map an object in JavaScript
