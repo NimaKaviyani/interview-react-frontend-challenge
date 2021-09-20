@@ -24,6 +24,12 @@ const Index = () => (
         >
             Test 2
         </Link>
+        <Link
+            className="App-link"
+            to="/test/3"
+        >
+            Test 3
+        </Link>
     </header>
 );
 

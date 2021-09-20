@@ -8,11 +8,11 @@ const One = () => {
     const [data, setData] = useState({});
     useEffect(() => {
         setData(testOneData);
-    }, [testOneData]);
+    }, []);
     // >>>>>>> Start Test Area >>>>>>>
     useEffect(() => {
         console.log({data});
-    }, []);
+    }, [data]);
 
 
     // >>>>>>>> End Test Area >>>>>>>>

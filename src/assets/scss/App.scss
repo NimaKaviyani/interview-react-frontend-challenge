@@ -10,7 +10,9 @@
     pointer-events: none;
     margin-bottom: 2.5rem;
 }
-
+.small {
+    font-size: .5em
+}
 .App-header {
     background-color: $primary-color;
     min-height: 100vh;
