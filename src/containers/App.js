@@ -3,13 +3,11 @@ import {Route, Switch} from 'react-router-dom';
 import Index from './../routes/home';
 import TestOne from './../routes/test/one';
 import TestTwo from './../routes/test/two';
-import TestThree from './../routes/test/three';
 import '../assets/scss/App.scss';
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
                 <Switch>
                     <Route
                         exact
@@ -27,13 +25,7 @@ function App() {
                         component={TestTwo}
                         key={3}
                     />
-                    <Route
-                        path={'/test/3'}
-                        component={TestThree}
-                        key={4}
-                    />
                 </Switch>
-            </header>
         </div>
     );
 }
