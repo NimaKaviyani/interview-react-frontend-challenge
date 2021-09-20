@@ -6,7 +6,7 @@
 
 React challenges for online interview.
 
-### Knowledge required for this task includes:
+#### Knowledge required for this task includes:
 - Map an object in JavaScript
 - Check if Variable is an Array in JavaScript
 - Check if Variable is an Object in JavaScript
