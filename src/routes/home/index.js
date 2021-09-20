@@ -10,22 +10,22 @@ const Index = () => (
             alt="logo"
         />
         <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Choose your test.
         </p>
         <Link
-            className="text-light mb-3"
+            className="App-link mb-3"
             to="/test/1"
         >
             Test 1
         </Link>
         <Link
-            className="text-light mb-3"
+            className="App-link mb-3"
             to="/test/2"
         >
             Test 2
         </Link>
         <Link
-            className="text-light"
+            className="App-link"
             to="/test/3"
         >
             Test 3

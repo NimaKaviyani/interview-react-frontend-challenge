@@ -4,7 +4,7 @@ import Index from './../routes/home';
 import TestOne from './../routes/test/one';
 import TestTwo from './../routes/test/two';
 import TestThree from './../routes/test/three';
-import './../assets/App.scss';
+import '../assets/scss/App.scss';
 
 function App() {
     return (
